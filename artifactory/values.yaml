@@ -29,7 +29,7 @@ artifactory:
   name: artifactory
   replicaCount: 1
   newInitPassword: rancher
-  licenses: "cHJvZHVjdHM6CiAgYXJ0aWZhY3Rvcnk6CiAgICBwcm9kdWN0OiBaWGh3YVhKbGN6b2dNakF4T0Mwd05TMHhORlF3TURvd01Eb3dNRm9LYVdRNklHUmtZVFE0WlRKakxUaGxabU10TkRreE5TMWlObU00TFdNMFpHTmpObU0zWmpRMU9BcHZkMjVsY2pvZ1VtRnVZMmhsY2lCTVlXSnpDbkJ5YjNCbGNuUnBaWE02SUh0OUNuTnBaMjVoZEhWeVpUb2diblZzYkFwMGNtbGhiRG9nZEhKMVpRcDBlWEJsT2lCVVVrbEJUQXAyWVd4cFpFWnliMjA2SURJd01UZ3RNREl0TVRSVU1UTTZOVGs2TWpJdU1qRXdXZ289CiAgICBzaWduYXR1cmU6IGRSekhmdGd3SFBFVXprTW9ldy9JVVRpSGV3M1hvN24zalpoMXpTYlJqY1dqcmduVDM3dVYzRnVzVHJHOVR1TWFXcDhvcjFJREF0ay9WaXFqOS9hTk9MY2NCWmZJdGhtZ0dyakpseElkZXdxdVhqdGVsVDJrSEtlUmdSd1RveTNnMTRXaXFNVnRhZFVPdWhEY1MrNnR1ay9Kb2pYUlNxSjZmT09EV1JEZUphSHpNbVRaWVhvT2ZOZEo3T1FoMTNvSHBhdEU1Y2QwSWVMZnMzZDg3Y0xXWmpJNnVtaXptSjEvM0IrYjB2SmdsNisvS01Cc3hvV3pKT0R0djh1Q1NSQzRFamdhdFdBSjlFUStodWN6WDlpU1U4aHJBVlVJNk1FZGtZY20xWHhqVEs0L2ZJVmlZNzFJU0NKQnliK3ZTZkVSRk9lWEpEMm5SL1hjVXowaTJadFpUdz09CnZlcnNpb246IDEK"
+  licenses: ""
   image:
     # repository: "docker.bintray.io/jfrog/artifactory-oss"
     repository: "docker.bintray.io/jfrog/artifactory-pro"
@@ -139,6 +139,6 @@ postgresql:
   postgresPassword: "artifactory"
   postgresDatabase: "artifactory"
   persistence:
-    enabled: true
+    enabled: false 
   service:
     port: 5432
