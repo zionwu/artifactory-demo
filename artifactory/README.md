@@ -97,6 +97,8 @@ The following table lists the configurable parameters of the artifactory chart a
 |---------------------------|-----------------------------------|----------------------------------------------------------|
 | `imagePullSecrets`        | Docker registry pull secret       |                                                          |
 | `artifactory.name` | Artifactory name | `artifactory`   |
+| `artifactory.licenses` | Artifactory liceses key | ``   |
+| `artifactory.newInitPassword` | predefined admin password | `rancher`   |
 | `artifactory.replicaCount`            | Replica count for Artifactory deployment| `1`                                                |
 | `artifactory.image.pullPolicy`         | Container pull policy             | `IfNotPresent`                                           |
 | `artifactory.image.repository`    | Container image                   | `docker.bintray.io/jfrog/artifactory-pro`                |
